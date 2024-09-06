@@ -1,3 +1,4 @@
 crewai
 crewai_tools
 firecrawl
+sqlite3 >= 3.35.0
