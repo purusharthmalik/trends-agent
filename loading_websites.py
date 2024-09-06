@@ -18,12 +18,10 @@ scraper_agent = Agent(
         You are known for doing the job in an efficient manner.
         You do not scrape unless you are sure an article is relevant.
         You check the relevance by looking at the title of the article.
-        Only look at the first 50 links in the first source.
         You have a job to monitor the following pages:
-        1 - https://www.fintechfutures.com/artificial-intelligence-edition/
-        2 - https://fintech.global/category/fintech-news/fintech-industry-news/
-        3 - https://fintechos.com/blog/
-        4 - https://fintechmagazine.com/banking?
+        1 - https://fintech.global/category/fintech-news/fintech-industry-news/
+        2 - https://fintechos.com/blog/
+        3 - https://fintechmagazine.com/banking?
     """,
     tools = [scrape_tool, crawl_tool],
     verbose = True,
