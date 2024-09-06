@@ -17,18 +17,16 @@ st.set_page_config(page_title="Trend Analysis",
 st.markdown(
     """
     <style>
-        /* Background and font styling */
         .main {
-            background-color: #fff; /* White background */
-            color: #4b0082; /* Deep purple text color */
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+            background-color: #fff;
+            color: #4b0082;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-        /* Button styling */
         .stButton>button {
             margin: 0 auto;
             display: block;
-            background-color: #8e44ad; /* Rich purple button color */
+            background-color: #8e44ad;
             color: white;
             border-radius: 12px;
             padding: 12px 24px;
@@ -36,15 +34,19 @@ st.markdown(
             font-size: 16px;
             font-weight: bold;
             cursor: pointer;
-            transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effect */
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         .stButton>button:hover {
-            background-color: #f8f0fc; /* White background on hover */
-            color: #4b0082; /* Deep purple text color on hover */
+            background-color: #f8f0fc;
+            color: #4b0082;
         }
 
-        /* Header styling */
+        .stButton>button:click {
+            background-color: #4b0082;
+            color: #f8f0fc;
+        }
+
         .header {
             text-align: center;
             padding: 30px;
@@ -52,13 +54,11 @@ st.markdown(
             font-weight: bold;
         }
 
-        /* Image styling */
         .header img {
             max-width: 200px;
             margin-bottom: 20px;
         }
 
-        /* Markdown content styling */
         .markdown-content {
             margin-top: 30px;
             padding: 20px;
@@ -69,9 +69,8 @@ st.markdown(
             line-height: 1.6;
         }
 
-        /* Styling for all markdown headings */
         .markdown-content h1, .markdown-content h2, .markdown-content h3, .markdown-content h4, .markdown-content h5, .markdown-content h6 {
-            color: #4b0082; /* Deep purple for all headings */
+            color: #4b0082;
         }
     </style>
     """,
