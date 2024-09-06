@@ -1,9 +1,9 @@
 import streamlit as st
-import time
 from PIL import Image
+from loading_websites import trend_analysis
 
 def update_markdown_file():
-    time.sleep(3)
+    trend_analysis()
 
 def read_markdown_file(file_path):
     with open(file_path, 'r') as file:
