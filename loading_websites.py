@@ -45,7 +45,7 @@ def trend_analysis():
 
     scrape = Task(
         description = """
-        1. Search for the latest tools and technologies in the fintech market for the banking sector.
+        1. Search for the latest tools and technologies in the fintech market for the banking sector. The timeframe for the crawler options will be last week.
         2. Filter 20 top tools and technologies along with a description of the same. (The description should include the product's website, a brief summary of the tool/technology, and future prospects).
         3. Make sure that all the 20 items in the list are relevant to fintech in the banking sector.
         """,
