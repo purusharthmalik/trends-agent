@@ -1,4 +1,4 @@
 crewai
 crewai_tools
 firecrawl
-chromadb
+pysqlite3-binary
