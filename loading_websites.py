@@ -4,7 +4,6 @@ from crewai import Agent, Task, Crew
 from crewai_tools import FirecrawlScrapeWebsiteTool, FirecrawlCrawlWebsiteTool, MDXSearchTool
 
 load_dotenv()
-os.environ["FIRECRAWL_API_KEY"] = "fc-f26cae111c84490bb6aa73053766c40c"
 crawl_tool = FirecrawlCrawlWebsiteTool()
 scrape_tool = FirecrawlScrapeWebsiteTool()
 md_tool = MDXSearchTool()
